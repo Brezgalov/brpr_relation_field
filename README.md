@@ -1,5 +1,5 @@
-# ACF FIELD_LABEL Field
+# ACF Brezgalov Projects Relation Field
 
-Welcome to the Advanced Custom Fields FIELD_LABEL repository on Github.
+Welcome to the Advanced Custom Fields Brezgalov Projects Relation Field repository on Github.
 
-EXTENDED_DESCRIPTION
+This field is a one to many relation displayer, with abillity to reorder records.
