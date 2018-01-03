@@ -1,0 +1,45 @@
+.brpr_relation_field_holder {
+	padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+.brpr_relation_field {
+	width: 100%;
+	margin: 0;
+	list-style-type: none;
+}
+.brpr_relation_field li {
+	margin: 0;
+}
+.brpr_relation_field li .item-wrapper {
+	max-width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid rgba(0,0,0,0.5);
+}
+.brpr_relation_field p {
+	margin: 0;
+}
+.brpr_relation_field li .item-wrapper .link,
+.brpr_relation_field li .item-wrapper .name {
+	display: inline-block;
+}
+.brpr_relation_field li .item-wrapper .link {
+	float: right;
+}
+.brpr_relation_field_holder .field-bottom-link {
+	margin-left: 10px;
+	cursor: pointer;
+}
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
